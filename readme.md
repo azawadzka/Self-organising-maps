@@ -14,17 +14,20 @@ Implementation in TensorFlow using sessions. Works correctly for small sets, doe
 
 The analyses using self-organising maps were made using Mini-SOM library. When my implementation is improved, it will be possible to compare the behavior of both implementations.
 
-1. Typical pickup spots for each hour
+#### 1. Typical pickup spots for each hour
 Pickup longitude and latitude were used in the training. Time data was only used to show additional dependency. Groups of dots indicate typical pickup spots, eg. airport.
 
 ![Typical pickup spots in each hour](./pickup_loc_hours.png)
 
-2. Price vs. payment type
+#### 2. Price vs. payment type
 The model was trained on ride distance, payment value and payment type (cash, credit card). The markers indicate payment type and taxi company.
 
 The outcome could show a discrepancy in payment value based on payment type (could be that tax is omitted in cash payments so the effective payment is higher) for both companies, to be evaluated by statistics!!!
 
 x, o - taxi companies
+
 &#x1F34F; - payment type 1
+
 &#x1F49A; - payment type 2
+
 ![Price vs. payment type](./price.png)
