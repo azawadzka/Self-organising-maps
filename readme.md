@@ -1,21 +1,21 @@
 Final assignment for course Sistemas Inteligentes I, ULPGC Universidad de Las Palmas de Gran Canaria, January 2020.
 
-//TODO:
-
-confirm analyses in statistics
-
-improve implementation
+//TODO: improve implementation
 
 Algoritm description from:
+
 Palomo, Esteban & Domínguez, Enrique. (2013). Hierarchical Color Quantization Based on Self-organization. Journal of Mathematical Imaging and Vision. 49. 1-19. 10.1007/s10851-013-0433-8.
+
 https://www.researchgate.net/publication/236027587_Hierarchical_Color_Quantization_Based_on_Self-organization
 
 Dataset: New York Yellow Taxi Trip Data (provided in the course)
+
 https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq
 
 Implementation in TensorFlow using sessions. Works correctly for small sets, does not work on larger sets.
 
 The analyses using self-organising maps were made with  MiniSOM library. When my implementation is improved, it will be possible to compare the behavior of both implementations.
+
 https://github.com/JustGlowing/minisom
 
 #### 1. Typical pickup spots for each hour
