@@ -26,23 +26,28 @@ Pickup longitude and latitude were used in the training. Time data was only used
 #### 2. Price vs. payment type
 The model was trained on ride distance, payment value and payment rate type (airport, group ride etc.). The markers indicate payment type (cash, credit card) and taxi company.
 
-The outcome could show a discrepancy in payment value based on payment type (could be that tax is omitted in cash payments so the effective payment is higher) for both companies, to be evaluated by statistics!!!
+The outcome could show a discrepancy in payment value based on payment type for both companies.
+
+---
 
 ##### Map
-<img align="right" src="./price.png">
-
+<p float="right">
+<img src="./price.png">
+<br>
+<img src="./hist_payments.png">
+</p>
 x, o - taxi companies
 
 &#x1F34F; - payment type 1 credit card
 
 &#x1F49A; - payment type 2 cash
 
+For credit card
 x, y axes scales are arbitrary, they are significant for the precision of the map but not for values of data
 
+---
 ##### Relation to data
-<img align="right" src="./hist_payments.png">
 
-For credit card
 - count: 185 157
 - mean: 17.505
 
@@ -51,7 +56,7 @@ For cash
 - count: 157 832
 - mean: 13.478
 
-The histogram is limited to 150 000 entries per payment type. X axis was limited to 100 $.
+The histogram is limited to 150 000 entries per payment type. The X axis was limited to 100 $.
 
 Visibly, credit card payments are larger than cash payments.
 
