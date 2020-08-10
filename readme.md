@@ -45,7 +45,7 @@ x, y axes scales are arbitrary, they are significant for the precision of the ma
   </tr>
   <tr>
     <td>
-<img align="right" src="./hist_payments.png">
+<img align="right" src="./hist_payment.png">
 <b>Relation to data</b>
       
 
