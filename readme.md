@@ -31,11 +31,18 @@ The outcome could show a discrepancy in payment value based on payment type for 
 ---
 
 ##### Map
-<p float="right">
-<img src="./price.png">
-<br>
-<img src="./hist_payments.png">
-</p>
+<table align="right">
+  <tr>
+    <td>
+      <img align="right" src="./price.png">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img align="right" src="./hist_payments.png">
+    </td>
+  </tr>
+</table>
 x, o - taxi companies
 
 &#x1F34F; - payment type 1 credit card
