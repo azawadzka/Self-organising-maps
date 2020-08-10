@@ -28,33 +28,28 @@ The model was trained on ride distance, payment value and payment rate type (air
 
 The outcome could show a discrepancy in payment value based on payment type for both companies.
 
----
-
-##### Map
-<table align="right">
+<table>
   <tr>
     <td>
-      <img align="right" src="./price.png">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img align="right" src="./hist_payments.png">
-    </td>
-  </tr>
-</table>
+<img align="right" src="./price.png">
+<b>Map</b>
+      
 x, o - taxi companies
 
 &#x1F34F; - payment type 1 credit card
 
 &#x1F49A; - payment type 2 cash
 
-For credit card
 x, y axes scales are arbitrary, they are significant for the precision of the map but not for values of data
+    </td>
+  </tr>
+  <tr>
+    <td>
+<img align="right" src="./hist_payments.png">
+<b>Relation to data</b>
+      
 
----
-##### Relation to data
-
+For credit card
 - count: 185 157
 - mean: 17.505
 
@@ -67,6 +62,9 @@ The histogram is limited to 150 000 entries per payment type. The X axis was lim
 
 Visibly, credit card payments are larger than cash payments.
 
+    
+  </tr>
+</table>
 
 
 
