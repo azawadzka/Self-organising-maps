@@ -13,6 +13,7 @@ Dataset: New York Yellow Taxi Trip Data (provided in the course)
 Implementation in TensorFlow using sessions. Works correctly for small sets, does not work on larger sets.
 
 The analyses using self-organising maps were made using Mini-SOM library. When my implementation is improved, it will be possible to compare the behavior of both implementations.
+https://github.com/JustGlowing/minisom
 
 #### 1. Typical pickup spots for each hour
 Pickup longitude and latitude were used in the training. Time data was only used to show additional dependency. Groups of dots indicate typical pickup spots, eg. airport.
