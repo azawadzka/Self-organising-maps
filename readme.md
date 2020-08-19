@@ -93,8 +93,6 @@ For cash
 - mean: 13.478
 
 The histogram is limited to 150 000 entries per payment type. The X axis was limited to 100 $.
-
-Visibly, credit card payments are larger than cash payments.
     </td>
   </tr>
 </table>
