@@ -63,17 +63,18 @@ The outcome could show a discrepancy in payment value relative to payment type f
 <table>
   <tr>
     <td>
-<img align="right" src="figures/price_with_payment_type.png">
-
-<img align="right" src="figures/price_without_payment_type.png">
+<img src="figures/price_with_payment_type.png" width=350>
+<img src="figures/price_without_payment_type.png" width=350>
       
 **Self-organized map**
       
 x, o - taxi companies
 
-&#x1F34F; - payment type 1 credit card
+:green_apple: - payment type 1 credit card
 
-&#x1F49A; - payment type 2 cash
+:green_heart: - payment type 2 cash
+
+:blue_heart: - payment type 3
 
 x, y axes scales are arbitrary, they are significant for the precision of the map but not for values of data
     </td>
