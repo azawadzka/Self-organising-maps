@@ -27,7 +27,7 @@ Pickup longitude and latitude were used in the training.
       
 **Self-organized map**
       
-<img align="right" src="././pickup_loc_hours.png">
+<img align="right" src="figures/pickup_loc_hours.png">
 
 Data limited in number of observations. Each point represents 100 observations.
 
@@ -43,7 +43,7 @@ The map uses arbitrary axes that are significant for the precision of the map bu
       
 **Relation to data**
       
-<img align="right" src="./new_york.png">
+<img align="right" src="figures/new_york.png">
 
 Data limited to one hour span (22:00-23:00). 
 Not limited in number of observations.
@@ -56,14 +56,16 @@ Not limited in number of observations.
 </table>
 
 #### 2. Price vs. payment type
-The model was trained on ride distance, payment value and payment rate type (airport, group ride etc.). The markers indicate payment type (cash, credit card) and taxi company.
+The model was trained on ride distance, payment value and payment rate type (airport, group ride etc.), which are all unrelated to price. The colors indicate payment type and markers indicate taxi company (both not used for training).
 
-The outcome could show a discrepancy in payment value based on payment type for both companies.
+The outcome could show a discrepancy in payment value relative to payment type for both companies.
 
 <table>
   <tr>
     <td>
-<img align="right" src="./price.png">
+<img align="right" src="figures/price_with_payment_type.png">
+
+<img align="right" src="figures/price_without_payment_type.png">
       
 **Self-organized map**
       
@@ -78,7 +80,7 @@ x, y axes scales are arbitrary, they are significant for the precision of the ma
   </tr>
   <tr>
     <td>
-<img align="right" src="./hist_payment.png">
+<img align="right" src="figures/hist_payment.png">
       
 **Relation to data**
       
